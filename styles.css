@@ -18,6 +18,26 @@ main {
     text-align: center;
 }
 
+.playlist {
+    margin-top: 2em;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist li {
+    padding: 0.5em;
+    background-color: #ddd;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.playlist li:hover {
+    background-color: #ccc;
+}
+
 .player {
     margin-top: 2em;
 }
