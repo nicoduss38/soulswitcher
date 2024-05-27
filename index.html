@@ -8,13 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon site de musique</h1>
+        <h1>Bienvenue sur le site de Soul Switcher</h1>
     </header>
     <main>
         <h2>Mes Musiques</h2>
+        <div class="playlist">
+            <ul id="playlist">
+                <li data-src="musique1.mp3">Musique 1</li>
+                <li data-src="musique2.mp3">Musique 2</li>
+                <li data-src="musique3.mp3">Musique 3</li>
+            </ul>
+        </div>
         <div class="player">
             <audio id="audioPlayer" controls>
-                <source src="votre_musique.mp3" type="audio/mp3">
+                <source id="audioSource" src="musique1.mp3" type="audio/mp3">
                 Votre navigateur ne supporte pas l'élément audio.
             </audio>
         </div>
